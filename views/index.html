@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--<link rel="stylesheet" href="css/style-rating.css" />-->
+  </head>
+  <body>
+    <section
+      class="d-flex justify-content-center"
+      style="padding: 99px -1px; padding-top: 50px; padding-bottom: 0px"
+    >
+      <div class="container-fluid d-flex">
+        <div
+          class="row d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex align-items-start align-content-start align-items-lg-start"
+        >
+          <div class="col">
+            <div class="rate">
+              <h1 class="text-center mb-0" style="color: #a50034">
+                Evalúa la página
+              </h1>
+              <div class="rating">
+                <form class="rating" method="POST" target="/star" action="/public/">
+                  <input
+                    type="submit"
+                    value="1"
+                    name="rating"
+                    id="rating-1"
+                    onclick="estrella();"
+                  /><label class="form-label" for="1">☆</label>
+                  <input
+                    type="radio"
+                    value="2"
+                    name="rating"
+                    id="rating-2"
+                    onclick="estrella();"
+                  /><label class="form-label" for="2">☆</label>
+                  <input
+                    type="radio"
+                    value="3"
+                    name="rating"
+                    id="rating-3"
+                    onclick="estrella();"
+                  /><label class="form-label" for="3">☆</label>
+                  <input
+                    type="radio"
+                    value="4"
+                    name="rating"
+                    id="rating-4"
+                    
+                    onclick="estrella();"
+                  /><label class="form-label" for="4"id="rating4">☆</label>
+                  <input
+                    type="radio"
+                    value="5"
+                    name="rating"
+                    id="rating-5"
+                    onclick="estrella();"
+                  /><label class="form-label" for="5">☆</label>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col text-center align-self-end" style="height: 100%">
+            <h1 class="text-center mb-0" style="color: #a50034">
+              Evalúa la página
+            </h1>
+            <a class="link-back" href="#">Vuelve al catálogo de apps de LG</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+
+
+
+<!-- <script src="./estrellas.js"></script> -->
+</html>

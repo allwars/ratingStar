@@ -1,0 +1,22 @@
+{
+  "name": "app-nodejs-starrating",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "googleapis": "^108.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "Router": "^2.1.0",
+    "socket.io": "^4.5.2"
+  },
+  "description": ""
+}
